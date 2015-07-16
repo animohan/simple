@@ -30,3 +30,26 @@ print(S+'_eating contest')
 #Strings are immutable objects and their values cannot be changed after creatin
 #uncomment and run the nextline to see the error
 #S[0]='z' 
+
+#but can run expression to make new pbjec
+S='z'+S[1:]
+print(S)
+
+#you can change text based data in place if you either expand it into a list of individual
+#character and join it back
+
+S='shrubbery'
+L=list(S)
+print(S)
+print(L)
+
+L[1]='c'
+print(L)
+
+#now converting to a string
+print("".join(L))
+
+B=bytearray(b'spam')
+print(B)
+B.extend(b'eggs')
+print(B)
