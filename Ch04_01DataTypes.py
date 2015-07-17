@@ -3,25 +3,34 @@
 #number
 print('number data types');
 print(25*25)
+print('\n')
 
 print('float data types')
 print(1.5*1.39)
+print('\n')
 
-print('lenght of a number: 5000')
+print('length of a number: 5000')
 print(len(str(5000)))
+print('\n')
 
 #Math module has more functions
 import random
 print ('Random number printing')
 print(random.random())
 print(random.choice([1,2,3,5]))
+print('\n')
 
 #simple string operation
 print('length of string :- Spam')
 S='spam'
+print('Printing value assigned to S')
 print(S)
+print('\n')
+
+print('Lenght of S is')
 print(len(S))
 #accessing elements of the string
+print('Access to elementes of string')
 print(S[0])
 print(S[1])
 print(S[-1])
@@ -55,3 +64,14 @@ B=bytearray(b'spam')
 print(B)
 B.extend(b'eggs')
 print(B)
+B.decode()
+
+#Finding subset
+S='Spam'
+print(S.find('pa'))
+print(S.replace('pa', 'XYZ'))
+
+line = 'aaa,bbb,ccccc,dd'
+print(line.split(','))
+print(S.upper())
+
