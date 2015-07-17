@@ -12,10 +12,12 @@ print(len(str(5000)))
 
 #Math module has more functions
 import random
+print ('Random number printing')
 print(random.random())
 print(random.choice([1,2,3,5]))
 
 #simple string operation
+print('length of string :- Spam')
 S='spam'
 print(S)
 print(len(S))
