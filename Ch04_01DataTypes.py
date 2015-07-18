@@ -1,6 +1,7 @@
 # Simple data type
 
 #number
+print('Number')
 print('number data types');
 print(25*25)
 print('\n')
@@ -27,7 +28,7 @@ print('Printing value assigned to S')
 print(S)
 print('\n')
 
-print('Lenght of S is')
+print('Length of S is')
 print(len(S))
 #accessing elements of the string
 print('Access to elementes of string')
