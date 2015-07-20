@@ -86,7 +86,25 @@ print('#Replace pa in Spam with XYZ')
 print(S.replace('pa', 'XYZ'))
 print('\n')
 
+print('#Splitting with a delimiter')
 line = 'aaa,bbb,ccccc,dd'
+print(line)
+print('Split line')
 print(line.split(','))
-print(S.upper())
+print(line.upper())
+
+print('\n')
+print('Removing the white space characters from line')
+print(line.rstrip())
+print(line.rstrip().split(','))
+
+print('\n')
+line2='eee/fff/ggg/hhh'
+print(line2)
+print(line2.split('/'))
+
+print('\n')
+print('Formatting string output with specific messages')
+print('%s, eggs, and %s' %('spam','bacon'))
+      
 
