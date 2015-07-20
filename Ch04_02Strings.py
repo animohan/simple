@@ -75,10 +75,9 @@ print(line.rstrip())
 print(line.rstrip().split(','))
 
 print('\n')
+print('#Splitting the elements of as string and accessing the first element')
 line2='eee/fff/ggg/hhh'
 print(line2)
-print(line2.split('/'))
+print(line2.split('/')[0])
 
-print('\n')
-print('#Formatting string output with specific messages')
-print('%s, eggs, and %s' %('spam','bacon'))
+
