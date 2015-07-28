@@ -30,7 +30,7 @@ print(doubles)
 print('\n#Getting a range of collections in the list')
 print(list(range(4)))
 print('\nRange specificy upper and lower limits')
-print(list(range(-6,1)))
+print(list(range(-6,1))) # actual range is from -6 to 0 i.e 1 is not included
 print(list(range(-6,2)))
 print(list(range(-6,3)))
 
