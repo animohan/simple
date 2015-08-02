@@ -44,3 +44,44 @@ print(S[7:2:-1]) #Note reversing the start and end point and step sign does not 
 
 #String conversions
 print("\n#String Conversions")
+S='42'
+print(int(S)+42)
+
+K=23
+print(str(K)+" Wolves")
+
+#Character Code conversions
+print("\n#Character code conversions")
+#converting character to its ASCII values
+print(ord('s'))
+print(chr(115))
+print(chr(ord('s')+1)) #print next value after s
+print(ord('5')-ord('0'))
+
+print("\nUsing the character code conversions to convert from binary")
+B='1101'
+I=0
+while B!="":
+	I=I*2+(ord(B[0])-ord('0'))
+	B=B[1:]
+
+print(I)
+
+print(int('101',2))
+print(int('101',3))
+print(bin(5))
+
+print("\nChanging Strings")
+S='Spam'
+# S[0]='x' #causes an error, string object does not support item assignment
+S=S+'Spam!'
+print(S)
+S=S[:4]+'Burger'+S[-1]
+print(S)
+S=S[0]
+print(S)
+S="Hello World"
+S=S.replace("World","Human")
+print(S)
+
+print("That is a %d %s bird !" %(1,'flying'))
