@@ -26,3 +26,22 @@ print("a %s parrot" %('kind')) #String formatting
 print("a {0} parrot " .format('dumb')) #another string formatting
 print(S2.find('ri')) # Index of ri in Horizon
 print(S2.find('rz'))
+S3="Event Horizon"
+print(S3.rstrip())
+print(S3.replace('ri','to'))
+print(S3.split(','))
+S=23
+print("S=",S)
+#print(S.isdigit())
+T='HELLO'
+print("T=",T)
+print(T.lower())
+print(T.endswith('spam'))
+print(T.encode('latin-1'))
+#print(T.decode('utf8')) #Throws
+for x in T:
+    print(x)
+
+print('llo' in T)
+print('LLO' in T)
+print([c*2 for c in T])
