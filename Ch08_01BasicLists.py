@@ -1,4 +1,7 @@
 #Lists
+import turtle
+wn=turtle.Screen()
+
 print("Simple list commands")
 L=[]#Declaring an empty list
 L=[123,'abc', 1.23,{}] #collection of items
