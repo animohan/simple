@@ -10,6 +10,16 @@ class Person:
 	def giveRaise(self,percent):
 		self.pay=int(self.pay+percent*self.pay)
 
+	def __repr__(self):
+		return '[Person: %s, %s]' %(self.name,self.pay)
+
+
+#defining subclasses
+class Manager(Person):
+	def giveRaise(self, percent, bonus=0.10):
+		Person.giveRaise(self, percent+bonus)
+
+
 if __name__=='__main__':
 	#self-test code
 	bob = Person('Bob Smith')
@@ -19,3 +29,4 @@ if __name__=='__main__':
 	print("Bob's lname:", bob.lastname(), "Sue's lname:",sue.lastname())
 	sue.giveRaise(0.1)
 	print("Sue's pay after raise:", sue.pay)
+	print(sue)
