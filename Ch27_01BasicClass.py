@@ -59,4 +59,51 @@ print(x.name, y.name)
 x.name='Sue'
 print(rec.name, x.name, y.name)
 print(list(rec.__dict__.keys()))
-print((x.__dict__.keys()))
+print((x.__dict__.keys())) # name was explicity set for x, hence it show up
+print((y.__dict__.keys())) # name was inheritied from class, so it doesn show up
+print(x.__class__) #link to the class,
+print(rec.__bases__) #clases are derived, so to access their superclass
+
+#methods that are normally created by def inside a class, can be created indpendenty
+def uppername(obj):
+	return obj.name.upper()
+
+rec.method=uppername
+
+print(x.method())
+
+#comparing dicitionaries and classes. 
+
+#Tuple based record
+rec1=('Bob',40.5,['dev','mgr']) 
+print("Tuple Name:",rec1[0])
+
+#dictionary based record
+rec2={}
+rec2['name']='Bob'
+rec2['age']=40.5
+rec2['jobs']=['dev','mgr']
+print("Dictionary name:",rec2['name'])
+
+class rec3: pass
+rec3.name='Bob'
+rec3.age=40.5
+rec3.jobs=['dev','mgr']
+
+print("Class/Object:", rec3.name)
+
+#Proper full blow class
+
+class Person:
+	def __init__(self, name, jobs, age=None):
+		self.name=name
+		self.jobs=jobs
+		self.age=age
+	def info(self):
+		return(self.name, self.jobs)
+
+rec4=Person('Bob',['dev','mgr'],40.5)
+rec5=Person("Sue",['dev','cto'])
+
+print(rec4.jobs)
+print(rec5.info())
