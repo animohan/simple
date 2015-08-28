@@ -14,3 +14,9 @@ table={1975:"Holy Grail",
 print(table)
 
 print("\n#Using dictionaries for sparse data structures: Tuple keys")
+Matrix={}
+Matrix[(2,3,4)]=88
+Matrix[(7,8,9)]=99
+X=2;Y=3;Z=4
+print(Matrix[(X,Y,Z)])
+print(Matrix)
