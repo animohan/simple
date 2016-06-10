@@ -7,6 +7,13 @@ print('Length of D:',len(D))
 print("Test for existence: ham in D:", 'ham' in D)
 print("Keys of D:",list(D.keys()),"\n",D.keys())
 
+#list of dictionaries
+SetDict=[{'spam':1,'ham':1,'eggs':1},{'spam':5,'ham':5,'eggs':5}]
+print(SetDict)
+SetDict[0]["id"]= {'spam':11,'ham':11,'eggs':11}
+print(SetDict)
+print(len(SetDict[0]["id"]))
+"""
 print("\n#Changing Dictionary values")
 print("Old D:",D)
 D['ham']=['grill','bake','fry']
@@ -73,3 +80,4 @@ print(table[K])
 V='1975'
 print([key for (key,value) in table.items() if value==V])
 print([key for key in table.keys() if table[key]==V])
+"""
