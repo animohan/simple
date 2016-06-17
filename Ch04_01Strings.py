@@ -64,7 +64,7 @@ print('\n')
 
 print('#Splitting with a delimiter')
 line = 'aaa,bbb,ccccc,dd'
-print(line)
+print('line='+line)
 print('Split line')
 print(line.split(','))
 print(line.upper())
