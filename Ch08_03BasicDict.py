@@ -13,7 +13,7 @@ print(SetDict)
 SetDict[0]["id"]= {'spam':11,'ham':11,'eggs':11}
 print(SetDict)
 print(len(SetDict[0]["id"]))
-"""
+
 print("\n#Changing Dictionary values")
 print("Old D:",D)
 D['ham']=['grill','bake','fry']
