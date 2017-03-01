@@ -51,35 +51,39 @@ Strings
 
 
 Lists:
-1. Declare a list with characters a,b,c.
-2. How is the declaration of list in python different from R. 
-3.  Compare declaration of list in python and array in R.
-4. Declare a list with integer 1, 2,3 and characters a, b, c
-5. L = list of 1-5; How to access first number in the list
-6. How do you access array elements in R, any similarity between list in python and array in r
-7. How to access last number of list
-8. How to access 1st to 2nd last element of the the list
-9. How to access from 2nd to end of the list.
-10. Declare a list of greek letters alpha beta gamma; Add delta and epsilon to the list using a class function on list
-11. output first two elements of the list; they should be deleted from list as well; 1LOC
-12. Declare two lists of numbers and add them
-13. Declare list of number; multiply each of them by 2
-14. Declare list of numbers as characters; multiply each of them by 2
-15. Sort a given list of array.
-16. Reverse print the elements of array
-17. Multi dimensional lists(MDL): Declare a list with 3 sets of list in them
-18. Print the MDL like a matrix of say 3x3
-19. Print element 0,0 of the matrix (MDL and element 2,2, of the matrix
-20. print all the rows of the matrix (MDL) elemeny by element; 
-21. Print first column using the fact that it is row[0] for each row.
-22. Add 5 to each row and print them
-23. print all the columns of the matrix(MDL)
-24. print first columen using fact that it is row[0] for each row.; print only results if they are even
+. Declare a list with characters a,b,c.
+. How is the declaration of list in python different from R. 
+.  Compare declaration of list in python and array in R.
+. Declare a list with integer 1, 2,3 and characters a, b, c
+. L = list of 1-5; How to access first number in the list
+. How do you access array elements in R, any similarity between list in python and array in r
+. How to access last number of list
+. How to access 1st to 2nd last element of the the list
+. How to access from 2nd to end of the list.
+.  Reverse the list using slicing.
+.  Reverse the list and do not print the first number
+. Declare a list of greek letters alpha beta gamma; Add delta and epsilon to the list using a class function on list
+. Add another element using + 
+. Define a list within a list and access the 2nd element of the inner list.
+. output first two elements of the list; they should be deleted from list as well; 1LOC
+. Declare two lists of numbers and add them
+. Declare list of number; multiply each of them by 2
+. Declare list of numbers as characters; multiply each of them by 2
+. Sort a given list of array.
+. Reverse print the elements of array
+. Multi dimensional lists(MDL): Declare a list with 3 sets of list in them
+. Print the MDL like a matrix of say 3x3
+. Print element 0,0 of the matrix (MDL and element 2,2, of the matrix
+. print all the rows of the matrix (MDL) elemeny by element; 
+. Print first column using the fact that it is row[0] for each row.
+. Add 5 to each row and print them
+. print all the columns of the matrix(MDL)
+. print first columen using fact that it is row[0] for each row.; print only results if they are even
 	hint [row[0] for row in matrix if the element r[0] is divsible by 2
 
-25. print a squence of number from 1:10; use a function
-26. use the same function to print in increment of 2.
-27. what is this similar with in R.
+. print a squence of number from 1:10; use a function
+. use the same function to print in increment of 2.
+. what is this similar with in R.
 
 
 Dicitionaries
