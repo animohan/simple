@@ -1,0 +1,154 @@
+Strings
+. Length of a String
+. First element of a string.
+. Last element of a string.
+. How is getting the last element of string here different from R
+. First three elements of a string.
+. First to 2nd last element of a string.
+. Last to first element of a string; printed in that order; 1 line of code.
+. S = "helloWorld"; print every alternative word
+. S = "Spam"; What is the result of S[1] = "l"
+. What is the result of S[0]+"l"+S[2:3]
+.print concatenated string wiht "Hello" "World"
+. S= "Spam". How do you convert this to a list
+. a = ["a","b","c"] is a list; Change b -> m and output a string (1 LOC)
+. S = "This,world,of,mine"; Output individual words and remove the comma
+. S = "This,world,of,mine"; Make a string output without comma but space between words
+. S = "Triple"' what is the poistion of "r; 
+. S = "Triple"' what is the return value for position of "x" which is not in triple
+. S = "Hello Sun" ; Replace sun with "moon"
+. u = animal name (e.g lion), v = bird name (e.g); Output that "animal" and "bird" are best friends; Note animal and bird are variables
+. How to Declare a string that contains ' or "
+. Declare two string and concatenate them
+. Declare a string and print it 3 times.
+. Variable substitution  in print statements %  and .format
+. Declare a string = "Jupiter" find the position of pi
+. change teh string "jupiter" to juniper
+. here is string "hello,world"; create a list where each index holds one word
+. Assign a = "5"; check if this is digit or not
+. String a = "hello" ; Change into upper case.
+. String a = "spam"; check if the string ends with "am"; dont use membership function
+. Repeat a string 5 times.
+. Declare a string: Use for loop to go over that.
+. Declare a string and reverse it using slicing
+. Declare a string "42"; convert into integer and add 5
+. Declare a number 25; Add it to a string and get "25 Wolves"
+. Declare a string "Spam !";  and change it to "Spam Burger !"
+. Declare a string "Hello World"; replace to say "Hello Human"
+. Declare a string and Capitalize it
+. Declare a string and uncapitalize it
+. Declare a string "This little light of mine"' find position of "tt"
+. Declare a string "This little light of mine"' find if it ends with ine
+. Check is  a string is alpha, isa numeric, identified, digit, lower case, printable, is numeric, lower, space, title, upper using string methods
+. Morph S="spammy' to "spaxxy"
+. Do the same thing with replace method
+. S = xxxxSPAMxxxxx ; Replace SPAM with EGGS
+. S=Spammy" Change the string into a list and change mm  to xx; you can c use indexing in list
+. line = "i'amSPAMaSPAMlumber"; how to get i'am a lumber from here
+. In string what are modifiers %d, %s, %g
+. x = 1.23456789; print in exponenst, decimal
+. for x above, what does %-6.2f, %05.2f,%+6.1f give ? which one shows significant digits or digits after decimal
+
+
+Lists:
+. Declare a list with characters a,b,c.
+. How is the declaration of list in python different from R. 
+.  Compare declaration of list in python and array in R.
+. Declare a list with integer 1, 2,3 and characters a, b, c
+. L = list of 1-5; How to access first number in the list
+. How do you access array elements in R, any similarity between list in python and array in r
+. How to access last number of list
+. How to access 1st to 2nd last element of the the list
+. How to access from 2nd to end of the list.
+.  Reverse the list using slicing.
+.  Reverse the list and do not print the first number
+. Declare a list of greek letters alpha beta gamma; Add delta and epsilon to the list using a class function on list
+. Add another element using + 
+. Define a list within a list and access the 2nd element of the inner list.
+. output first two elements of the list; they should be deleted from list as well; 1LOC
+. Declare two lists of numbers and add them
+. Declare list of numbers; double them [1,2] -> [1,2,1,2]
+. Declare list of number; multiply each of them by 2 (Is this possible ?)
+. Declare list of numbers as characters; multiply each of them by 2
+. Sort a given list of array.
+. Reverse print the elements of array
+. Multi dimensional lists(MDL): Declare a list with 3 sets of list in them
+. Print the MDL like a matrix of say 3x3
+. Print element 0,0 of the matrix (MDL and element 2,2, of the matrix
+. print all the rows of the matrix (MDL) (elemeny by element - not sure?); print every row
+. Print first column using the fact that it is row[0] for each row.
+. Add 5 to each row and print them
+. print all the columns of the matrix(MDL)
+. print first columen using fact that it is row[0] for each row.; print only results if they are even
+	hint [row[0] for row in matrix if the element r[0] is divsible by 2
+
+. print a squence of number from 1:10; use a function
+. use the same function to print in increment of 2.
+. what is this similar with in R.
+. Declare a list from 1-5; check if 3 is in the list
+. What is the difference between list methods append and extend
+. Insert an element at 2nd index location; do not use l[1] notation
+. Declare a list 1:5; what is index of 3; use list method
+. Declare a list and sort it; sort it to reverse.
+. Delete an element from the list
+. insert 3 elements in begining of list with 1LOC
+. Declare a list 0-5; Replace 2 elements starting index 1 with a new list of 5 elements. Only element till index 3 should be replace; remaining of the (5-2 = 3) elements should just be inserted
+. list comprehension: comprehension expression for square of first 10 numbers
+. duplicate alphabets in a list and put the duplicatesin a string 3-4 LOC
+
+
+
+
+Dicitionaries
+. Declare a dictionary: index/keys = numbers, values = colors
+. Start an empty dicitionary and fill it with index = numbers and values = color
+. Use dict function to delcare the dictionaries
+. User zip to declare a dictionary
+. print the keys of a dictionary.
+. print the values of a dictionary
+. Declare a dictionary with employee name jobs and age; Name is another dicitionrary with elements being first and last name.
+. Print the last name of the person.
+. Check if a particular key exists in dicitionary.
+. Another way to check fif a particular key missing.
+. Add a new key value pair in dictionary.
+. Use comprehension and if a key exists in a dicitionary; else return 0 or -1
+. Sort the keys and print dictionary
+
+Tuples
+. Declare a tuple of 4 integers
+. length of the tuple
+. Declare a mixed tuple of characters and integers
+. Declare a tuple and access it first value.
+. Last element of a tuple.
+. 2nd to last element of the tuple.
+. print first to last of a tuple.
+. Declare a tuple and change the value of first element.
+. Add two tuples (is the tuples added together or the elements added together)
+. print the index of the first element.
+. print an index of a recurring element
+. print number of occurences of an element 1LOC
+. printed a sorted list according to keys
+
+Sets
+. Declare a set of 10 characters
+. Declare 2 sets of 10 characters and show their intersection
+. Declare a set of numbers. Any issues ? What we must use to declare numbers insider set
+. Declare 2 sets of 10 characters each: Show their union, differnece, intersection XOR, superset, subset, membership
+. Repeat the following operation with methods on set objects : differnece, union, intersection, union, 
+. merge, delete element from a set
+. Write a for loop to multiplly each elemen in set by 3.
+. Declare a list of numbers as a set
+. Apply 'or' operation on set of numbers
+. Union of two sets of numbers
+. Declare 2 sets of 5 elements in curly bracket and assign them to sets
+. Declare a set and convert the elements to a list.
+. Declare a list and convert them into set
+
+Working of References:
+. Declare a variable a and assign it a value; assign b same as a; assign new value to a; what happens to b
+. Declare a variable a and assign it a value; assign b same as a; add 2 to a; what happens to b
+. Declare a list of 5 elements = L1. User assignment operator to assign another list to this L2= L1; Change L1[0]; what happens to L2
+. Declare a list of 5 elements = L1. User assignment operator to assign another list to this L2= L1[:]; Change L1[0]; what happens to L2
+. Declare an list 4 elements L; Let M = L. CHeck if L & M are equal
+. Declare an list 4 elements L 1,2,3; Let M list of same elements 1,2,3. CHeck if L & M are equal
+ 
