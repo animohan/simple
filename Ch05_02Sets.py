@@ -36,6 +36,9 @@ print("z.add('SPAM'):",z)
 z.update(set(['X','Y']))
 print("\nMerging, in place Union:z.update(set['X','Y']):",z)
 
+z.update(set('uv'))
+print(z)
+
 z.remove('b')
 print("\nRemoving element from set: z.remove('b'):",z)
 
