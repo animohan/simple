@@ -134,6 +134,7 @@ Sets
 . Declare 2 sets of 10 characters and show their intersection
 . Declare a set of numbers. Any issues ? What we must use to declare numbers insider set
 . Declare 2 sets of 10 characters each: Show their union, differnece, intersection XOR, superset, subset, membership
+. Check if using set methods changes the original set. e.g a.union(b); does it change a
 . Repeat the following operation with methods on set objects : differnece, union, intersection, union, 
 . merge, delete element from a set
 . Write a for loop to multiplly each elemen in set by 3.
