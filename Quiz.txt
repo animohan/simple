@@ -68,7 +68,7 @@ Lists:
 . output first two elements of the list; they should be deleted from list as well; 1LOC
 . Declare two lists of numbers and add them
 . Declare list of numbers; double them [1,2] -> [1,2,1,2]
-. Declare list of number; multiply each of them by 2 (Is this possible ?)
+. Declare list of number; multiply each of them by 2 (Is this possible ?) 3 LOC possible
 . Declare list of numbers as characters; multiply each of them by 2
 . Sort a given list of array.
 . Reverse print the elements of array
@@ -87,12 +87,13 @@ Lists:
 . what is this similar with in R.
 . Declare a list from 1-5; check if 3 is in the list
 . What is the difference between list methods append and extend
-. Insert an element at 2nd index location; do not use l[1] notation
+. Insert an element at 2nd index location; do not use l[1] notation; Use list method
 . Declare a list 1:5; what is index of 3; use list method
 . Declare a list and sort it; sort it to reverse.
-. Delete an element from the list
-. insert 3 elements in begining of list with 1LOC
+. Delete an element from the list; Does it deleter all instances of the element?
+. insert 3 elements in begining of list with 1LOC #search if needed
 . Declare a list 0-5; Replace 2 elements starting index 1 with a new list of 5 elements. Only element till index 3 should be replace; remaining of the (5-2 = 3) elements should just be inserted
+(not complicated; think insert by slicing)
 . list comprehension: comprehension expression for square of first 10 numbers
 . duplicate alphabets in a list and put the duplicatesin a string 3-4 LOC
 
@@ -112,6 +113,7 @@ Dicitionaries
 . Another way to check fif a particular key missing.
 . Add a new key value pair in dictionary.
 . Use comprehension and if a key exists in a dicitionary; else return 0 or -1
+. Declare a list from 1-5; check if 3 is in the list
 . Sort the keys and print dictionary
 
 Tuples
