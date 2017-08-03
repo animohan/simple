@@ -18,6 +18,9 @@ Strings
 . S = "Triple"' what is the return value for position of "x" which is not in triple
 . S = "Hello Sun" ; Replace sun with "moon"
 . u = animal name (e.g lion), v = bird name (e.g); Output that "animal" and "bird" are best friends; Note animal and bird are variables
+. u = 220; Print("Value of u is ..) use variable substitution
+. u =22.2256; Print u, but only with 2 decimal places
+. a = 20, b = 35; print value of a,b but a printed first; Note do not do print(b,a)
 . How to Declare a string that contains ' or "
 . Declare two string and concatenate them
 . Declare a string and print it 3 times.
@@ -45,7 +48,7 @@ Strings
 . S = xxxxSPAMxxxxx ; Replace SPAM with EGGS
 . S=Spammy" Change the string into a list and change mm  to xx; you can c use indexing in list
 . line = "i'amSPAMaSPAMlumber"; how to get i'am a lumber from here
-. In string what are modifiers %d, %s, %g
+. In string what are modifiers %d, %s, %g, %f
 . x = 1.23456789; print in exponenst, decimal
 . for x above, what does %-6.2f, %05.2f,%+6.1f give ? which one shows significant digits or digits after decimal
 
